@@ -4,6 +4,21 @@ library = fanstatic.Library('select2', 'resources')
 select2_css = fanstatic.Resource(library, 'select2.css')
 select2 = fanstatic.Resource(library, 'select2.js', minified='select2.min.js',
                              depends=[select2_css, ])
+
+select2_bootstrap_css = fanstatic.Resource(library, 'select2-bootstrap.css')
+
+select2_ar = fanstatic.Resource(
+    library,
+    'select2_locale_ar.js',
+    depends=[select2])
+select2_az = fanstatic.Resource(
+    library,
+    'select2_locale_az.js',
+    depends=[select2])
+select2_bg = fanstatic.Resource(
+    library,
+    'select2_locale_bg.js',
+    depends=[select2])
 select2_ca = fanstatic.Resource(
     library,
     'select2_locale_ca.js',
@@ -20,6 +35,10 @@ select2_de = fanstatic.Resource(
     library,
     'select2_locale_de.js',
     depends=[select2])
+select2_el = fanstatic.Resource(
+    library,
+    'select2_locale_el.js',
+    depends=[select2])
 select2_es = fanstatic.Resource(
     library,
     'select2_locale_es.js',
@@ -31,6 +50,14 @@ select2_et = fanstatic.Resource(
 select2_eu = fanstatic.Resource(
     library,
     'select2_locale_eu.js',
+    depends=[select2])
+select2_fi = fanstatic.Resource(
+    library,
+    'select2_locale_fi.js',
+    depends=[select2])
+select2_fa = fanstatic.Resource(
+    library,
+    'select2_locale_fa.js',
     depends=[select2])
 select2_fr = fanstatic.Resource(
     library,
@@ -52,6 +79,10 @@ select2_hu = fanstatic.Resource(
     library,
     'select2_locale_hu.js',
     depends=[select2])
+select2_id = fanstatic.Resource(
+    library,
+    'select2_locale_id.js',
+    depends=[select2])
 select2_is = fanstatic.Resource(
     library,
     'select2_locale_is.js',
@@ -64,6 +95,14 @@ select2_ja = fanstatic.Resource(
     library,
     'select2_locale_ja.js',
     depends=[select2])
+select2_ka = fanstatic.Resource(
+    library,
+    'select2_locale_ka.js',
+    depends=[select2])
+select2_ko = fanstatic.Resource(
+    library,
+    'select2_locale_ko.js',
+    depends=[select2])
 select2_lt = fanstatic.Resource(
     library,
     'select2_locale_lt.js',
@@ -75,6 +114,10 @@ select2_lv = fanstatic.Resource(
 select2_mk = fanstatic.Resource(
     library,
     'select2_locale_mk.js',
+    depends=[select2])
+select2_ms = fanstatic.Resource(
+    library,
+    'select2_locale_ms.js',
     depends=[select2])
 select2_nl = fanstatic.Resource(
     library,
@@ -100,6 +143,10 @@ select2_ro = fanstatic.Resource(
     library,
     'select2_locale_ro.js',
     depends=[select2])
+select2_rs = fanstatic.Resource(
+    library,
+    'select2_locale_rs.js',
+    depends=[select2])
 select2_ru = fanstatic.Resource(
     library,
     'select2_locale_ru.js',
@@ -116,9 +163,13 @@ select2_tr = fanstatic.Resource(
     library,
     'select2_locale_tr.js',
     depends=[select2])
-select2_ua = fanstatic.Resource(
+select2_ug_CN = fanstatic.Resource(
     library,
-    'select2_locale_ua.js',
+    'select2_locale_ug-CN.js',
+    depends=[select2])
+select2_uk = fanstatic.Resource(
+    library,
+    'select2_locale_uk.js',
     depends=[select2])
 select2_vi = fanstatic.Resource(
     library,

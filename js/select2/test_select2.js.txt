@@ -8,3 +8,16 @@ these resources to be included on a page::
   >>> from js.select2 import select2
   >>> select2.need()
 
+If you need a specific translation use::
+
+  >>> from js.select2 import select2_de
+  >>> select2_de.need()
+
+For the list of possible translations see
+https://github.com/ivaynberg/select2/tree/3.5.1
+
+For bootstrap css support include additionally
+the required css via::
+
+  >>> from js.select2 import select2_bootstrap_css
+  >>> select2_bootstrap_css.need()

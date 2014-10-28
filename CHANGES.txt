@@ -1,10 +1,12 @@
 CHANGES
 =======
 
-3.5 (unreleased)
+3.5.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Updated to select2 3.5.1
+
+- added select2_bootstrap_css
 
 
 3.4.1 (2013-06-10)
